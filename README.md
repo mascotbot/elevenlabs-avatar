@@ -240,7 +240,7 @@ This demo is provided as an open-source example for Mascotbot subscribers. You'r
 
 - For SDK issues: support@mascot.bot
 - For ElevenLabs issues: [ElevenLabs Support](https://elevenlabs.io/support)
-- Community: [Discord Server](https://discord.gg/mascotbot)
+- Community: [Discord Server](https://discord.gg/SBxfyPXD)
 
 ---
 
