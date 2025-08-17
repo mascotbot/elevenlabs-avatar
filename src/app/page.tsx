@@ -162,12 +162,12 @@ function ElevenLabsAvatar() {
   }, [isMuted]);
 
   return (
-    <div className="fixed inset-0 bg-gradient-to-br from-gray-900 to-gray-800 overflow-hidden">
+    <div className="fixed inset-0 overflow-hidden" style={{ backgroundColor: "#FFF8F0" }}>
       <div className="h-screen w-full flex items-center justify-center">
         {/* Mascot Display Area */}
         <div className="relative w-full h-full">
           {/* Background pattern SVG - now full width */}
-          <div className="absolute inset-0 pointer-events-none opacity-20">
+          <div className="absolute inset-0 pointer-events-none" style={{ opacity: 0.4 }}>
             <img
               src="/bg_pattern.svg"
               alt=""
@@ -184,9 +184,10 @@ function ElevenLabsAvatar() {
 
           {/* Bottom gradient overlay - now full width */}
           <div
-            className="absolute bottom-0 left-0 right-0 h-32 pointer-events-none"
+            className="absolute bottom-0 left-0 right-0 pointer-events-none"
             style={{
-              background: "linear-gradient(to top, rgba(17, 24, 39, 0.9), transparent)",
+              height: "25%",
+              background: "linear-gradient(180deg, #FFF8F000 0%, #FFF8F0 90%)",
             }}
           />
 
@@ -196,7 +197,7 @@ function ElevenLabsAvatar() {
               {conversation.status === "connected" ? (
                 <div className="flex gap-x-5">
                   <button
-                    className="inline-flex items-center justify-center gap-x-2.5 h-16 w-fit p-5 text-lg  rounded-[3px] truncate transition hover:opacity-90"
+                    className="inline-flex items-center justify-center gap-x-2.5 h-16 w-fit p-5 text-lg font-mono rounded-[3px] truncate transition hover:opacity-90"
                     style={{
                       backgroundColor: "#FF4444",
                       color: "#FFFFFF",
@@ -207,10 +208,11 @@ function ElevenLabsAvatar() {
                   </button>
                   <button
                     onClick={toggleMute}
-                    className="inline-flex items-center justify-center gap-x-2.5 h-16 w-fit p-5 text-lg  rounded-[3px] truncate transition hover:opacity-90"
+                    className="inline-flex items-center justify-center gap-x-2.5 h-16 w-fit p-5 text-lg font-mono rounded-[3px] truncate transition hover:opacity-90 border"
                     style={{
-                      backgroundColor: isMuted ? "#444444" : "#1e3a5f",
-                      color: "#FFFFFF",
+                      backgroundColor: isMuted ? "rgba(255, 255, 255, 0.9)" : "#FFFFFF",
+                      color: "rgba(91, 71, 55, 0.85)",
+                      borderColor: "rgba(139, 108, 80, 0.2)",
                     }}
                   >
                     {isMuted ? "Unmute" : "Mute"}
@@ -220,11 +222,11 @@ function ElevenLabsAvatar() {
                 <button
                   onClick={startConversation}
                   disabled={isConnecting}
-                  className={`inline-flex items-center justify-center gap-x-2.5 h-16 w-fit p-5 text-lg  rounded-[3px] truncate transition ${
+                  className={`inline-flex items-center justify-center gap-x-2.5 h-16 w-fit p-5 text-lg font-mono rounded-[3px] truncate transition ${
                     isConnecting ? "pointer-events-none opacity-50" : "hover:opacity-90"
                   }`}
                   style={{
-                    backgroundColor: "#1e3a5f",
+                    backgroundColor: "#FF8A3D",
                     color: "#FFFFFF",
                   }}
                 >

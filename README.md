@@ -1,6 +1,8 @@
 # ElevenLabs Avatar Integration Demo
 
-> Complete open-source example for integrating animated avatars with ElevenLabs conversational AI using Mascot Bot SDK. Real-time lip sync, WebSocket support, and production-ready React components.
+Complete open-source example for integrating animated avatars with ElevenLabs conversational AI using Mascot Bot SDK. Real-time lip sync, WebSocket support, and production-ready React components.
+
+![ElevenLabs Avatar Integration Demo](https://mascotbot-app.s3.amazonaws.com/rive-assets/og_assets/preview.png)
 
 ## 🚀 Quick Start
 
