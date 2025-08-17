@@ -6,6 +6,13 @@ Complete open-source example for integrating animated avatars with ElevenLabs co
 
 ## 🚀 Quick Start
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmascotbot%2Felevenlabs-avatar&env=MASCOT_BOT_API_KEY,ELEVENLABS_API_KEY,ELEVENLABS_AGENT_ID&envDescription=API%20keys%20required%20for%20ElevenLabs%20avatar%20integration&envLink=https%3A%2F%2Fdocs.mascot.bot%2Flibraries%2Felevenlabs-avatar&project-name=elevenlabs-avatar-demo&repository-name=elevenlabs-avatar-demo)
+
+**After deploying with Vercel:**
+1. Add the Mascotbot SDK package (`mascotbot-sdk-react-0.1.6.tgz`) to your cloned repository
+2. Add your mascot `.riv` file to the `public` folder
+3. Commit and push these changes to trigger a rebuild
+
 ### Prerequisites
 
 - Node.js 18+ 
@@ -14,7 +21,7 @@ Complete open-source example for integrating animated avatars with ElevenLabs co
 - ElevenLabs API key and Agent ID
 - Mascotbot API key
 
-### Installation
+### Manual Installation
 
 1. Clone this repository:
 ```bash
