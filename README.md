@@ -1,6 +1,6 @@
 # ElevenLabs Avatar Integration Demo
 
-Complete open-source example for integrating animated avatars with ElevenLabs conversational AI using Mascot Bot SDK. Real-time lip sync, WebSocket support, and production-ready React components.
+Complete open-source example for integrating animated avatars with ElevenLabs conversational AI using Mascotbot SDK. Real-time lip sync, WebSocket support, and production-ready React components.
 
 ![ElevenLabs Avatar Integration Demo](https://mascotbot-app.s3.amazonaws.com/rive-assets/og_assets/preview.png)
 
@@ -9,10 +9,10 @@ Complete open-source example for integrating animated avatars with ElevenLabs co
 ### Prerequisites
 
 - Node.js 18+ 
-- Mascot Bot SDK (provided as `.tgz` file after subscription)
+- Mascotbot SDK (provided as `.tgz` file after subscription)
 - Mascot `.riv` file (provided with SDK subscription)
 - ElevenLabs API key and Agent ID
-- Mascot Bot API key
+- Mascotbot API key
 
 ### Installation
 
@@ -22,7 +22,7 @@ git clone https://github.com/your-org/mascotbot-elevenlabs.git
 cd mascotbot-elevenlabs
 ```
 
-2. Copy the Mascot Bot SDK package to the project root:
+2. Copy the Mascotbot SDK package to the project root:
 ```bash
 cp /path/to/mascotbot-sdk-react-0.1.6.tgz ./
 ```
@@ -72,7 +72,7 @@ This example demonstrates:
 ## 📁 Project Structure
 
 ```
-mascotbot-elevenlabs/
+elevenlabs-avatar/
 ├── src/
 │   ├── app/
 │   │   ├── page.tsx          # Main demo page with ElevenLabs avatar
@@ -92,7 +92,7 @@ mascotbot-elevenlabs/
 
 ### 1. Automatic Viseme Injection
 
-The Mascot Bot proxy endpoint automatically injects viseme (mouth shape) data into the ElevenLabs WebSocket stream, enabling perfect lip synchronization without any modifications to ElevenLabs code.
+The Mascotbot proxy endpoint automatically injects viseme (mouth shape) data into the ElevenLabs WebSocket stream, enabling perfect lip synchronization without any modifications to ElevenLabs code.
 
 ### 2. Natural Lip Sync Processing
 
@@ -171,7 +171,7 @@ The demo uses Tailwind CSS for styling. Modify the classes in `src/app/page.tsx`
 Create a `.env.local` file with the following variables:
 
 ```env
-# Mascot Bot API Key (get from app.mascot.bot)
+# Mascotbot API Key (get from app.mascot.bot)
 MASCOT_BOT_API_KEY=mascot_xxxxxxxxxxxxxx
 
 # ElevenLabs Credentials
@@ -183,7 +183,7 @@ ELEVENLABS_AGENT_ID=agent_xxxxxxxxxxxxxx
 
 ### WebSocket Proxy Requirement
 
-**Do NOT connect directly to ElevenLabs WebSocket URLs**. The avatar lip-sync requires viseme data that only the Mascot Bot proxy provides. Direct connections will result in no mouth movement.
+**Do NOT connect directly to ElevenLabs WebSocket URLs**. The avatar lip-sync requires viseme data that only the Mascotbot proxy provides. Direct connections will result in no mouth movement.
 
 ### Browser Requirements
 
@@ -204,7 +204,7 @@ ELEVENLABS_AGENT_ID=agent_xxxxxxxxxxxxxx
 1. Check browser console for WebSocket errors
 2. Verify environment variables are set correctly
 3. Ensure Rive file has correct input names (`is_speaking`, `gesture`)
-4. Confirm you're using the Mascot Bot proxy endpoint, not direct ElevenLabs connection
+4. Confirm you're using the Mascotbot proxy endpoint, not direct ElevenLabs connection
 
 ### Connection Failed?
 
@@ -221,13 +221,13 @@ ELEVENLABS_AGENT_ID=agent_xxxxxxxxxxxxxx
 
 ## 📚 Documentation
 
-For complete documentation on the Mascot Bot SDK and all available features, visit:
-- [Mascot Bot Documentation](https://docs.mascot.bot)
+For complete documentation on the Mascotbot SDK and all available features, visit:
+- [Mascotbot Documentation](https://docs.mascot.bot)
 - [ElevenLabs Integration Guide](https://docs.mascot.bot/integrations/elevenlabs)
 
 ## 📄 License
 
-This demo is provided as an open-source example for Mascot Bot subscribers. You're free to use, modify, and deploy it as needed for your projects.
+This demo is provided as an open-source example for Mascotbot subscribers. You're free to use, modify, and deploy it as needed for your projects.
 
 ## 🤝 Support
 
@@ -237,4 +237,4 @@ This demo is provided as an open-source example for Mascot Bot subscribers. You'
 
 ---
 
-Built with ❤️ by the Mascot Bot team
+Built with ❤️ by the Mascotbot team
