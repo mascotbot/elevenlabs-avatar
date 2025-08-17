@@ -25,8 +25,8 @@ Complete open-source example for integrating animated avatars with ElevenLabs co
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/your-org/mascotbot-elevenlabs.git
-cd mascotbot-elevenlabs
+git clone https://github.com/mascotbot/elevenlabs-avatar.git
+cd elevenlabs-avatar
 ```
 
 2. Copy the Mascotbot SDK package to the project root:

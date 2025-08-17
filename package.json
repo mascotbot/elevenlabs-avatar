@@ -1,5 +1,5 @@
 {
-  "name": "mascotbot-elevenlabs",
+  "name": "elevenlabs-avatar",
   "version": "1.0.0",
   "description": "Open-source example demonstrating ElevenLabs voice AI integration with Mascot Bot SDK for real-time animated avatars",
   "private": true,
