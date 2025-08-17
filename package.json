@@ -1,0 +1,28 @@
+{
+  "name": "mascotbot-elevenlabs",
+  "version": "1.0.0",
+  "description": "Open-source example demonstrating ElevenLabs voice AI integration with Mascot Bot SDK for real-time animated avatars",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "14.2.5",
+    "@elevenlabs/react": "^0.5.0",
+    "@mascotbot-sdk/react": "file:./mascotbot-sdk-react-0.1.6.tgz"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.16"
+  }
+}
